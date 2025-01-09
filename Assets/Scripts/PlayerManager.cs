@@ -52,11 +52,11 @@ public class PlayerManager : MonoBehaviour {
         if (isPlayerReady) {
             //GetAxis
             dirX = Input.GetAxisRaw("Horizontal");
-            rb.velocity = new Vector2(dirX * speed, rb.velocity.y);
+            rb.linearVelocity = new Vector2(dirX * speed, rb.linearVelocity.y);
             
             if (Input.GetKeyDown("space") && IsGrounded()) {
                 sndManager.GetComponent<SoundManager>().PlayFX(0);
-                GetComponent<Rigidbody2D>().velocity = new Vector2(0,jumpSpeed);
+                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0,jumpSpeed);
             }
 
             /*if ((transform.position.y < -12f) && !isDead){
@@ -76,10 +76,10 @@ public class PlayerManager : MonoBehaviour {
             anim.SetBool("run", false);
         }
 
-        if (rb.velocity.y > .1f) {
+        if (rb.linearVelocity.y > .1f) {
             anim.SetBool("jump", true);
             anim.SetBool("fall", false);
-        } else if (rb.velocity.y < -.1f) {
+        } else if (rb.linearVelocity.y < -.1f) {
             anim.SetBool("jump", false);
             anim.SetBool("fall", true);
         } else {
