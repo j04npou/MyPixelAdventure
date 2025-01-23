@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerManager : MonoBehaviour {
+public class PlayerManagertmp : MonoBehaviour {
     private GameObject gameManager;
     private GameObject sndManager;
     private Animator anim;

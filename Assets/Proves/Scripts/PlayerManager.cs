@@ -1,7 +1,7 @@
 using UnityEditor.Animations;
 using UnityEngine;
 
-public class PlayerMng : MonoBehaviour {
+public class PlayerManager : MonoBehaviour {
 
     [SerializeField] private Animator animatorController;
 
