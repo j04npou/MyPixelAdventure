@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 072fb9c03f98b8541804c8632eda3b74
+guid: 9d1a3e0bc36dfc9468a738d92b6e92d4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 108
@@ -147,5 +147,5 @@ AssetOrigin:
   productId: 205812
   packageName: Free 2D Cartoon Parallax Background
   packageVersion: 1.0
-  assetPath: Assets/Sprites/Background/!_Moutain/Layer_3.png
+  assetPath: Assets/Free 2D Cartoon Parallax Background/FullBG/2_Desert.png
   uploadId: 484396

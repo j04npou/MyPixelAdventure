@@ -47,12 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DontDestroyOnLoad.cs" />
+    <Compile Include="Assets\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
     <Compile Include="Assets\Proves2D\Scripts\PlayerMng.cs" />
     <Compile Include="Assets\Scripts\BackgroundMainMenu.cs" />
     <Compile Include="Assets\Scripts\CollectibleManager.cs" />
     <Compile Include="Assets\Proves\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Proves2D\Scripts\PlayerManagerProves2D.cs" />
+    <Compile Include="Assets\Free 2D Cartoon Parallax Background\Demo\Script\ParallaxBackground_0.cs" />
     <Compile Include="Assets\Scripts\ItemCollector.cs" />
     <Compile Include="Assets\Scripts\OptionsMenuManager.cs" />
     <Compile Include="Assets\Scripts\EnemyType1Follower.cs" />
